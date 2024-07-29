@@ -1,219 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinay Sankeerth</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/c7a2b5773a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="Vinay.png" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header" onclick="closemenu()">Home</a></li>
-                <li><a href="#about" onclick="closemenu()">About</a></li>
-                <li><a href="#services" onclick="closemenu()">Services</a></li>
-                <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
-                <li><a href="#contact" onclick="closemenu()">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header_text">
-             <p>Front-End Developer And Data Analyst</p>    
-             <h1>
-                Hi, this is <span>Vinay</span><br>from India
-             </h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Vinay.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>Front-End Developer And Data Analyst</p>
+                <h1>
+                    Hi, this is <span>Vinay</span><br>from India
+                </h1>
+            </div>
         </div>
     </div>
-</div>  
-<!-----about----------->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="aboutcol1">
-                <img src="aboutme.jpg">
-            </div>
-            <div class="aboutcol2">
-                <h1 class="subtitle"><span>A</span>bout Me</h1>
-                <P> Hello there! I'm Vinay Sankeerth Nalla, 
-                    a passionate and aspiring Front-End Developer and Data Analyst 
-                    based in the vibrant city of Hyderabad. 
-                    Fueled by a profound love for crafting beautiful and user-centric digital experiences, 
-                    I graduated in 2023.<br><br>
+    <!-----about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="aboutme.jpg">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle"><span>A</span>bout Me</h1>
+                    <P> Hello there! I'm Vinay Sankeerth Nalla,
+                        a passionate and aspiring Front-End Developer and Data Analyst
+                        based in the vibrant city of Hyderabad.
+                        Fueled by a profound love for crafting beautiful and user-centric digital experiences,
+                        I graduated in 2023.<br><br>
 
-                    "I am proficient in HTML, CSS, JavaScript, and React, and I am constantly exploring new technologies to stay ahead in this ever-evolving field. From responsive design frameworks to cutting-edge front-end libraries, I believe in leveraging the best tools to deliver exceptional results. Additionally, I have strong data analysis skills, including expertise in Excel, SQL, Python, and Tableau, enabling me to extract meaningful insights from complex datasets."<br>
-                </P>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Front-End Development</span><br>
-                        Building visually appealing and user friendly websites using HTML,CSS and JavaScript.</li>
-                        <li><span>Self-Taught Photograper</span><br>
-                        "Click to relive the moment" embodies my philosophy — an invitation to step into the narrative of each photograph, 
-                        to feel the heartbeat of the captured instance.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2019-2023</span><br>B.tech in Electronics and Communication from Gokaraju Rangaraju Institute of Engineering and Technology.</br></li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>Front-End Development</span>
-                        <a href="https://github.com/Vinaysankeerth13"><br>GitHub</a></li>
-                        <li><span>Data Analysis</span>
-                            <a href="https://github.com/Vinaysankeerth13"><br>GitHub</a></li>
-                        <li><span>Short-Film</span>
-                        <a href="https://youtu.be/v4hJUyHwzKY?feature=shared"><br>Chorgaadha Chinna Chepa</a></li>
-                        <li><span>Photography Portfolio</span>
-                        <a href="https://vinaysankeerth1e579.myportfolio.com/"><br>Portfolio</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
-<!-----Services----------->
-<div id="services">
-    <div class="container">
-        <h1 class="subtitle">My services</h1>
-        <div class="services-list">
-             <div>
-                <i class="fa-solid fa-code"></i><br>
-                <h2>Front-End Developer</h2>
-                <p>Building visually appealing and user friendly websites</p>
-                <a href="#">Learn more</a>
-             </div>
-             <div>
-                <i class="fa-solid fa-camera-retro"></i><br>
-                <h2>Photography</h2>
-                <p>Capturing moments that people look back to travel back in time</p>
-                <a href="https://vinaysankeerth1e579.myportfolio.com/">Learn more</a>
-             </div>
-             <div>
-                <i class="fa-solid fa-photo-film"></i><br>
-                <h2>Videography</h2>
-                <p>“A moment in time. A memory for life.”</p>
-                <a href="https://vinaysankeerth1e579.myportfolio.com/">Learn more</a>
-             </div>
-        </div>
-    </div>
-</div>
-<!-----Portfolio----------->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="subtitle">My Work</h1>
-        <div class="worklist">
-            <div class="work">
-            <img src="Spotify.jpg" alt="">
-            <div class="layer">
-                <h3>Spotify Clone</h3><br>
-                <p>A fully responsive Spotify clone website</p>
-                <a href="https://github.com/Vinaysankeerth13/Spotify_Clone"><i class="fa-solid fa-paperclip"></i></a>
-            </div>
-            </div>
-            <div class="work">
-                <img src="Data_Analysis.jpg" alt="">
-                <div class="layer">
-                    <h3>Car Sales Analysis</h3><br>
-                    <p>Comprehensive analysis on top brands and customer behaviour</p>
-                    <a href="https://github.com/Vinaysankeerth13/Cars-data-analysis-"><i class="fa-solid fa-paperclip"></i></a>
+                        "I am proficient in HTML, CSS, JavaScript, and React, and I am constantly exploring new
+                        technologies to stay ahead in this ever-evolving field. From responsive design frameworks to
+                        cutting-edge front-end libraries, I believe in leveraging the best tools to deliver exceptional
+                        results. Additionally, I have strong data analysis skills, including expertise in Excel, SQL,
+                        Python, and Tableau, enabling me to extract meaningful insights from complex datasets."<br>
+                    </P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>
+                                Building visually appealing and user friendly websites using HTML,CSS and JavaScript.
+                            </li>
+                            <li><span>Data Analyst</span><br>
+                                "Detail-oriented fresher data analyst with expertise in Excel, SQL, Python, and Tableau,
+                                adept at transforming complex data into actionable insights."</li>
+                            <li><span>Self-Taught Photograper</span><br>
+                                "Click to relive the moment" embodies my philosophy — an invitation to step into the
+                                narrative of each photograph,
+                                to feel the heartbeat of the captured instance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2023</span><br>B.tech in Electronics and Communication from Gokaraju
+                                Rangaraju Institute of Engineering and Technology.</br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front-End Development</span>
+                                <a href="https://github.com/Vinaysankeerth13"><br>GitHub</a>
+                            </li>
+                            <li><span>Data Analysis</span>
+                                <a href="https://github.com/Vinaysankeerth13"><br>GitHub</a>
+                            </li>
+                            <li><span>Short-Film</span>
+                                <a href="https://youtu.be/v4hJUyHwzKY?feature=shared"><br>Chorgaadha Chinna Chepa</a>
+                            </li>
+                            <li><span>Photography Portfolio</span>
+                                <a href="https://vinaysankeerth1e579.myportfolio.com/"><br>Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <a href="https://github.com/Vinaysankeerth13" class="btn">See More</a>
     </div>
-</div>
-<!--------contact-->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="subtitle">Contact Me</h1>
-                <p><i class="fa-regular fa-envelope"></i> vinaysankeerth1@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> +91 9652068855</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/vinay-sankeerth/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Vinaysankeerth13"><i class="fa-brands fa-github"></i></a>
+    <!-----Services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i><br>
+                    <h2>Front-End Developer</h2>
+                    <p>Building visually appealing and user friendly websites</p>
+                    <a href="https://github.com/Vinaysankeerth13">Learn more</a>
                 </div>
-                <a href="Vinay's Resume July 2024 Updated.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="text" name="Email" placeholder="Your Email" required>
-                <textarea type="text" name="Message" rows="3" placeholder="Your message"></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright © Vinay Sankeerth Nalla </p>
-    </div>
-</div>
-    <!-- Add links to your external scripts or other resources here -->
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-        
-    function opentab(tabname)
-    {
-         for(tablink of tablinks)
-           {
-            tablink.classList.remove("active-link");
-           }
+                <div>
+                    <i class="fa-solid fa-photo-film"></i><br>
+                    <h2>Data Analyst</h2>
+                    <p>Passionate and detail-oriented fresher data analyst skilled in extracting insights from complex
+                        data to drive informed decision-making.</p>
+                    <a href="https://github.com/Vinaysankeerth13">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera-retro"></i><br>
+                    <h2>Photography</h2>
+                    <p>Capturing moments that people look back to travel back in time</p>
+                    <a href="https://vinaysankeerth1e579.myportfolio.com/">Learn more</a>
+                </div>
 
-           for(tabcontent of tabcontents)
-           {
-            tabcontent.classList.remove("active-tab");
-           }
-           event.currentTarget.classList.add("active-link");
-           document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
-<script>
-    var sidemenu = document.getElementById("sidemenu")
+            </div>
+        </div>
+    </div>
+    <!-----Portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="Foodie.jpg" alt="">
+                    <div class="layer">
+                        <h3>Foodie</h3><br>
+                        <p>This is a food ordering website that I built using React, and Tailwind CSS.</p>
+                        <a href="https://github.com/Vinaysankeerth13/React"><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Spotify.jpg" alt="">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3><br>
+                        <p>A fully responsive Spotify clone website</p>
+                        <a href="https://github.com/Vinaysankeerth13/Spotify_Clone"><i
+                                class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Data_Analysis.jpg" alt="">
+                    <div class="layer">
+                        <h3>Car Sales Analysis</h3><br>
+                        <p>Comprehensive analysis on top brands and customer behaviour</p>
+                        <a href="https://github.com/Vinaysankeerth13/Cars-data-analysis-"><i
+                                class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Vinaysankeerth13" class="btn">See More</a>
+        </div>
+        <!--------contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-regular fa-envelope"></i> vinaysankeerth1@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9652068855</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/vinay-sankeerth/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Vinaysankeerth13"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="Vinay's Resume July 2024 Updated.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea type="text" name="Message" rows="3" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Vinay Sankeerth Nalla </p>
+            </div>
+        </div>
+        <!-- Add links to your external scripts or other resources here -->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-300px";
-    }
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6vsZ_6Hwk0aB_gQL1F1nk6PUkH32MpOykzi6_i5jiPPNWfXHiwrYyJMNXrJKbUHiFYg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg");
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "You're message has been sent."
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },3000)
-            form.reset()
-        })
-        
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-300px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx6vsZ_6Hwk0aB_gQL1F1nk6PUkH32MpOykzi6_i5jiPPNWfXHiwrYyJMNXrJKbUHiFYg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "You're message has been sent."
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
 </body>
+
 </html>
